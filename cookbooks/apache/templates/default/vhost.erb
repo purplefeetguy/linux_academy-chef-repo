@@ -1,9 +1,11 @@
-# vhost tempalte file
+# vhost template file
 
+# if statement that allows for multi-domain vhost configurations based on re-used port 80
 <% if @port == 80 -%>
     NameVirtualHost *:80
 <% end -%>
 
+# Set server name and document root using attribute variables
 <VirtualHost *:<%= @port %> >
   ServerName <%= @domain %>
   DocumentRoot <%= @document_root %>

@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/cookbooks/apache" type="cookbooks-root" />
       <sourceFolder url="file://$MODULE_DIR$/cookbooks/motd" type="cookbooks-root" />
       <sourceFolder url="file://$MODULE_DIR$/cookbooks/security" type="cookbooks-root" />
+      <sourceFolder url="file://$MODULE_DIR$/cookbooks/php" type="cookbooks-root" />
     </content>
     <orderEntry type="jdk" jdkName="ruby-2.1.6-p336" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
